@@ -1,0 +1,11 @@
+# Local agent state and evaluation outputs
+.claude/
+.codex/
+.pi/
+.agent/
+evals/results/
+
+# OS/editor files
+.DS_Store
+*.swp
+*.swo
