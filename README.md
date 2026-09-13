@@ -2,6 +2,41 @@
 
 Uma skill de coorientação técnica e metodológica, sob demanda, para dissertações e teses em Ciência da Computação e Engenharia de Software.
 
+## Comandos operacionais
+
+Os comandos abaixo tornam a skill mais previsível em agentes que suportam arquivos de instrução ou slash commands. Eles não exigem uso em ordem fixa; escolha o comando que reduz a maior incerteza no estágio atual.
+
+| Comando | Quando usar | Resultado principal |
+| --- | --- | --- |
+| `/thesis-init` | tema, ideia ou projeto inicial | charter, contribuição candidata, riscos e próximo gate |
+| `/thesis-rq` | transformar problema em RQ | RQ testável, escopo e evidência necessária |
+| `/thesis-method` | desenhar método antes de executar | protocolo, seleção, métricas, validade e reprodução |
+| `/thesis-experiment` | planejar ou auditar avaliação | controles de execução, rastreabilidade e status de claims |
+| `/thesis-audit` | revisar coerência transversal | lacunas claim → evidência e ações priorizadas |
+| `/thesis-review` | revisar capítulo ou seção | diagnóstico científico antes de edição de estilo |
+| `/thesis-defense` | preparar arguição/defesa | perguntas prováveis, evidências e ajustes finais |
+
+Cada comando aponta para protocolos, rubricas e templates existentes. A skill continua sob demanda: não há calendário, SLA, cadência de reunião ou obrigação de usar todos os comandos.
+
+### Exemplo de fluxo
+
+```text
+/thesis-init
+  → thesis-charter.md + contribution-contract.md
+/thesis-rq
+  → research-protocol.md + claims-ledger.md
+/thesis-method
+  → experiment-plan.md + dataset-card.md + artifact-manifest.md
+/thesis-experiment
+  → resultados rastreáveis e status dos claims
+/thesis-review
+  → capítulos defensáveis
+/thesis-audit
+  → lacunas priorizadas
+/thesis-defense
+  → preparação de banca
+```
+
 ## Objetivo
 
 A skill ajuda a transformar uma ideia em uma pesquisa auditável: problema, lacuna, contribuição, perguntas de pesquisa, desenho metodológico, avaliação, artefato reprodutível e comunicação científica. Ela prioriza validade da inferência, rastreabilidade de evidências, integridade acadêmica e autonomia do estudante.
